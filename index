@@ -1,0 +1,14 @@
+<html>
+<body>
+
+<?php
+function celTokel($celcius)
+{
+  return $celcius + 273.15;
+}
+$x = $_GET['celcius'];
+celTokel($x)
+echo "<h2>The degree is $x</h2>";
+?>
+</body>
+</html
